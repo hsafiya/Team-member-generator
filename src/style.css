@@ -1,32 +1,36 @@
-nav {
-    background-color: gray;
+.team-heading {
+    background-color: #E84855;
+    color: #ffffff;
 }
-.navbar-brand {
-    color:crimson;
-    font-size: 2rem;
-    font-weight: bolder;
+
+.team-area {
+    max-width: 1000px;
+    margin: 3em auto;
+    flex-wrap: wrap;
 }
-.card {
-    width: 18rem;
-    background-color: powderblue;
-    text-align: center;
+
+.employee-card {
+    margin: 1em;
+    max-width: 280px;
+    width: 90%;
+    min-height: 22rem;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.7);
+    border: none;
 }
-.card-title {
-    color: blue;
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6F7F8;
 }
-.id-number {
-    font-weight: bold;
-    color: crimson;
-}
-.office-number {
-    font-weight: bold;
-    color: darkcyan;
-}
-.email-link {
-    font-style: italic;
-    font-weight: bold;
-}
-.school {
-    font-weight: bold;
-    color: lightseagreen;
+
+.list-group-item {
+    color: #000000;
+    text-decoration: none;
 }
