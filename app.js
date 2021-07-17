@@ -219,13 +219,13 @@ const confirmDone = () => {
             if (data.done === true) {
                 addEmployee();
             } else {
-                handler(templateArray);
+                createSite(templateArray);
             }
         });
 };
 
 // handler to generate html, write it to an html file and copy the style sheet
-const handler = templateArray => {
+const createSite = templateArray => {
     const file = html(templateArray);
     console.log('Team Profile has been Created!');
     writeFile(file)
