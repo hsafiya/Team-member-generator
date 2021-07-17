@@ -62,7 +62,7 @@ const generateTeam = team => {
 
     html.push(team
         .filter(employee => employee.getRole() === "Manager")
-        .map(data => generateManager(manager))
+        .map(data => generateManager(data))
     );
     html.push(team
         .filter(employee => employee.getRole() === "Engineer")
