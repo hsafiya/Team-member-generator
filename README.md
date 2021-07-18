@@ -4,7 +4,7 @@
   ## Description
   Team Profile Generator App
   
-  ## Link to the video: 
+  ## Link to the video: https://drive.google.com/file/d/1ORY4QUCi-0-B1Ii4AtuqUcuMQQSY_vIa/view
 
 ## Table of contents
 * [Installation](#installation)
