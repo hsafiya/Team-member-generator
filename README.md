@@ -24,7 +24,7 @@ The user will need to install "Jest" to be able to run the test functions if so 
   Run node index command in the command line. If installed correctly the user will be prompted with a series of questions. After answering all of the question the new index.html file will be created in "dist" directory.
   Use this app for quick display of the working team. User gets to choose from 2 titles at this time "Engineer"and "Intern". After providing the relevant information the new file will be generated, open index.html in a browser to to view the new team.
   
-  ![GitHub Logo](../src/screen.png)
+  ![GitHub Logo](./src/screen.png)
 
   ## License
   This project is s licensed under the [MIT](LICENSE)
